@@ -17,7 +17,7 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="index" options={{ headerShown: false }} />
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="chat/[otherId]" options={{ headerShown: true, title: 'Chat' }} />
+        <Stack.Screen name="chat/ChatWithUser" options={{ headerShown: true, title: 'Chat' }} />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
